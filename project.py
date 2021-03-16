@@ -1,9 +1,8 @@
 
 #installing required libraries
 
-#!pip install numpy
-#!pip install pandas
-#!pip install sklearn
+!pip install pandas
+!pip install sklearn
 !pip install missingno
 !pip install ycimpute
 !pip install xgboost
@@ -16,7 +15,7 @@ import pandas as pd
 import missingno as msno 
 import statsmodels.api as sm
 import xgboost
-#conda install -c conda-forge lightgbm
+conda install -c conda-forge lightgbm
 
 #installing required functions
 from ycimpute.imputer import knnimput
