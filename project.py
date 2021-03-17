@@ -358,7 +358,8 @@ def compML(df2, y, alg):
     RMSE = np.sqrt(mean_squared_error(y_test, y_pred))
     model_ismi = alg.__name__
     print(model_ismi, "Modeli Test Hatası:",RMSE)
-
+    
+#Calculations are made with default values of the model.
 models = [LGBMRegressor, 
           XGBRegressor, 
           GradientBoostingRegressor, 
